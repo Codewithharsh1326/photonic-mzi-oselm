@@ -1,0 +1,24 @@
+{
+  "project": "Hybrid Photonic-Digital OS-ELM Accelerator (Passive SOI MZI Mesh + Zynq UltraScale+ FPGA)",
+  "author": "Harsh Dharmendrabhai Patel",
+  "target_modes_M": 128,
+  "dataset": "optical_digits",
+  "metrics_at_target_M": {
+    "n_mzis": 8128,
+    "optical_propagation_delay_ps": 32.28,
+    "unitarity_frobenius_error": 2.46e-14,
+    "photonic_fp64_accuracy_pct": 98.33,
+    "photonic_q8_16_accuracy_pct": 98.12,
+    "digital_q8_16_accuracy_pct": 97.71,
+    "q8_16_quantization_drop_pct": 0.21,
+    "thermo_optic_drift_2_25K_adaptive_acc_pct": 90.83,
+    "thermo_optic_drift_2_25K_static_acc_pct": 31.04,
+    "thermo_optic_drift_mean_adaptive_acc_pct": 91.39,
+    "inference_mac_offload_pct": 86.49,
+    "dsp48e2_reduction_pct": 75.0,
+    "digital_infer_latency_us": 1.28,
+    "hybrid_infer_latency_us": 0.21,
+    "latency_speedup_x": 6.09,
+    "dynamic_energy_reduction_pct": 85.91
+  }
+}
